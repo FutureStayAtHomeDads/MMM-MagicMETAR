@@ -1,0 +1,14 @@
+/* Flight category colors */
+.vfr { background-color: green; }
+.mvfr { background-color: blue; }
+.ifr { background-color: red; }
+.lifr { background-color: purple; }
+
+/* Colored circle styles */
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
