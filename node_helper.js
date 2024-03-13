@@ -1,7 +1,6 @@
 import('MMM-MagicMetar.js')
-  .then(({ default: create }) => {
-    // Your code inside the dynamic import callback
-    export default create({
+  .then(({ create }) => {
+    module.exports = create({
       start() {
         console.log('MMM-MagicMetar helper started...');
       },
