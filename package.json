@@ -1,0 +1,9 @@
+{
+  "name": "MMM-MagicMetar",
+  "version": "1.0.0",
+  "description": "Magic Mirror module to display METAR and TAF data for airports",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  }
+}
